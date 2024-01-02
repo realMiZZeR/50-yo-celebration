@@ -22,15 +22,8 @@ firstButton.addEventListener('click', () => {
   }, 1100);
 })
 
-// firstSection.addEventListener('transitionend', () => {
-//   firstSection.style.display = 'none';
-
-//   secondSection.style.opacity = 1;
-//   secondSection.style.display = 'flex';
-// })
-
 secondButton.addEventListener('click', () => {
-  const link = 'https://lesta.ru/id/signin/?next=%2Fid%2Fopenid%2F4532024074551756029%2F&trust_root=https%3A%2F%2Ftanki.su%2F';
+  const link = 'https://lesta.ru/shop/gifts/';
 
   window.open(link, '_blank');
 });
